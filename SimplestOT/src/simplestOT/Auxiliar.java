@@ -10,10 +10,10 @@ public class Auxiliar {
 	public static long primeNumberGenerator(int min, int max, Random r) {
         long num = 0;
         Random rand = r; // generate a random number
-        num = rand.nextLong(min, max); 
-
+        num = rand.nextInt(max-min) + max;
+        
         while (!isPrime(num)) {          
-            num = rand.nextLong(min, max); 
+        	num = rand.nextInt(max-min) + max;
         }
 
         return num; 
