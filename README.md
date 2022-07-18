@@ -1,2 +1,2 @@
 # SimplestOTJava
-A SimplesOT light version in Java 
+A SimplestOT light version in Java 
